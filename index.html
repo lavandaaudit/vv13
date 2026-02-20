@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>march.2026</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background: #000;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+/* Контейнер стеку */
+.stack {
+    width: 100%;
+}
+
+/* Кожна сторінка = 1 екран */
+.section {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+/* iframe на весь блок */
+.section iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .section {
+        height: 100vh;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="stack">
+
+<!-- ЗОРІ -->
+<section class="section">
+    <iframe src="https://lavandaaudit.github.io/zori/"></iframe>
+</section>
+
+<!-- ГОРА -->
+<section class="section">
+    <iframe src="https://lavandaaudit.github.io/gora/"></iframe>
+</section>
+
+<!-- СІТІ -->
+<section class="section">
+    <iframe src="https://lavandaaudit.github.io/city/"></iframe>
+</section>
+
+<!-- БАЛКОН (ВИНОГРАД) -->
+<section class="section">
+    <iframe src="https://lavandaaudit.github.io/vv.vino.grad/"></iframe>
+</section>
+
+<!-- ДИКИЙ ПАРК -->
+<section class="section">
+    <iframe src="https://lavandaaudit.github.io/lis.13/"></iframe>
+</section>
+
+<!-- МОРЕ -->
+<section class="section">
+    <iframe src="https://lavandaaudit.github.io/more/"></iframe>
+</section>
+
+</div>
+
+</body>
+</html>
